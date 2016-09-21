@@ -3,7 +3,16 @@
 //   }
 // )()
 
-(function(a, b){
-  alert("The sum of" + a.toString() + " and " + b.toString() + " is: " + (a+b).toString());
+// (function(a, b){
+//   alert("The sum of" + a.toString() + " and " + b.toString() + " is: " + (a+b).toString());
+//   }
+// )(40, 50)
+
+var d = (function(a, b){
+  var c = 0;
+  c = a - b;
+  return c
   }
-)(40, 50)
+)(40, 5);
+
+alert("The difference is:" + d);
